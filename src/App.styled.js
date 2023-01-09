@@ -1,4 +1,6 @@
-.container {
+import styled from 'styled-components';
+
+export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -9,8 +11,12 @@
   box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
     rgba(0, 0, 0, 0.05) 0px 5px 10px;
   border-radius: 8px;
-}
+`;
 
-.title {
+export const TitlePhone = styled.h1`
   margin-bottom: 12px;
-}
+`;
+
+export const TitleContacts = styled.h2`
+  margin-bottom: 12px;
+`;
